@@ -1,0 +1,478 @@
+body {
+    background-color:#9FB8AD;
+    margin: 0em;
+}
+a {
+    color: #E6E8E6;
+}
+h1,h2,h3,h4,h5,h6,p {
+    color: #E6E8E6;
+}
+
+/* Navbar */
+.nav {
+    background-color: #475841;
+    display: block;
+    width: 6.25em;
+    height: 120em;
+    border: none;
+    text-align: center;
+    position:fixed;
+}
+/* Navmini */
+.navmini {
+    overflow: hidden;
+    background-color: #475841;
+    width: 100%;
+}
+.navmini a {
+    float: left;
+    color: #E6E8E6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Div */
+.div1 {
+    background: url(imgs/2.png) no-repeat center center fixed;
+   /*Natural background textural branches of a coniferous tree by pvproductions is licensed by freepik*/
+    width: 100%;
+    padding-top: 0.9375em;
+}
+.div1_2 {
+    background: url(imgs/2.png) no-repeat center center fixed;
+   /*Natural background textural branches of a coniferous tree by pvproductions is licensed by freepik*/
+    width: 100%;
+    margin: auto;
+    padding-top: 0.9375em;
+}
+.div2 {
+    background-color:#475841;
+    width: 100%;
+    margin: auto;
+    padding-top: 0.9375em;
+}
+.div3 {
+    background-color:#475841;
+    width: 45.625em;
+    margin: auto;
+    padding-top: 0.9375em;
+    flex-direction: row;
+}
+.div4 {
+    background: url(imgs/2.png) no-repeat center center fixed;
+   /*Natural background textural branches of a coniferous tree by pvproductions is licensed by freepik*/
+   height: 100%;
+}
+#div {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div2 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div3 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div4 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div5 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div6 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div7 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+#div8 {
+    text-align: center;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+/* Divmini */
+.div1mini {
+    background: url(imgs/2.png) no-repeat center center fixed;
+    /*Natural background textural branches of a coniferous tree by pvproductions is licensed by freepik*/
+    padding-top: 0.9375em;
+    width: 19em;
+    margin: auto;
+}
+.div3mini {
+    background-color:#475841;
+    width: 19em;
+    padding-top: 0.9375em;
+    flex-direction: column;
+    margin: auto;
+}
+.div4mini {
+    background: url(imgs/2.png) no-repeat center center fixed;
+    /*Natural background textural branches of a coniferous tree by pvproductions is licensed by freepik*/
+    height: 100%;
+    width: 19em;
+    padding-top: 0.9375em;
+    flex-direction: column;
+}
+.div5mini {
+    background-color:#475841;
+    width: 23.45em;
+    padding-top: 0.9375em;
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Img */
+#img {
+    width:100%;
+}
+.img {
+    width: 19.6875em;
+    border: outset 0.625em #E6E8E6;
+}
+.img2 {
+    width: 30.6875em;
+    border: outset 0.625em #E6E8E6;
+}
+/* Imgmini */
+.imgmini {
+    width: 19.6875em;
+    border: outset 0.625em #E6E8E6;
+}
+
+/* Text */
+.header {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color: #E6E8E6;
+}
+.h1_header {
+    font-size: 5.625em;
+    display: inline;
+}
+.h2_header {
+    font-size: 2.625em;
+    display: inline;
+}
+.p_header {
+    font-size: 2.1875em;
+    display: inline;
+}
+/* Textmini */
+.h1_headermini {
+    font-size: 2.625em;
+    display: inline;
+}
+.h2_headermini {
+    font-size: 2em;
+    display: inline;
+}
+.p_headermini {
+    font-size: 1.5875em;
+    display: inline;
+}
+.pmini {
+    font-size: 1.2em;
+    display: inline;
+    margin-left: 0.7em;
+    color: #E6E8E6;
+}
+
+/* Paper Page */
+.papers {
+    width: 70%;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
+    flex-direction: row;
+    margin: auto;
+}
+.papersmini {
+    width: 100%;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+.table {
+    text-align: center;
+    display: inline;
+}
+.shadow{
+    box-shadow: #9FB8AD 0.0625em 0.125em 0.125em 0.0625em;
+}
+
+/* About Page */
+.aboutme {
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutmemini {
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.600em;
+}
+.about1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3.625em;
+    text-align: center;
+    margin: 0em;
+}
+.about2 {
+    text-align: left;
+    padding-left: 3.125em;
+}
+.about1mini {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.625em;
+    text-align: left;
+    margin-left: 0.7em;
+}
+.about2mini {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0.925em;
+    font-size: 1.400em;
+    text-align: left;
+}
+.mini {
+    text-align: left;
+    margin-left: 1em;
+    font-size: 10px;
+}
+
+/* Button */
+.button {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    box-shadow: #9FB8AD 0.0625em 0.125em;
+    padding: 0.625em;
+    display: inline;
+    cursor: pointer;
+}
+#button {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button2 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button3 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button4 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button5 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button6 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button7 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+#button8 {
+    background-color:#3F403F;
+    color:#E6E8E6;
+    border:none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9FB8AD;
+}
+
+/* Hover */
+.arrow:hover {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    top: -0.625em;
+}
+
+/* Footer */
+.footer {
+    color: #E6E8E6;
+    margin-left: 90em;
+    font-size: 0.625em;
+}
+.footermini {
+    color: #E6E8E6;
+    text-align: center;
+    margin: auto;
+    font-size: 0.625em;
+}
+
+/* W3CSS */
+@media (min-width:993px){
+    .w3-hide-large{
+        display:none;
+   }
+}
+@media (max-width:992px) and (min-width:601px){
+    .w3-hide-medium{
+        display:none;
+   }
+}
+@media (max-width:601px) and (min-width:301px){
+    .w3-hide-small{
+        display:none;
+   }
+}
+.w3-circle{
+    border-radius:50% 
+}
+.w3-round-small{
+    border-radius:2px 
+}
+.w3-round,.w3-round-medium{
+    border-radius:4px 
+}
+.w3-round-large{
+    border-radius:8px 
+}
+.w3-round-xlarge{
+    border-radius:16px 
+}
+.w3-round-xxlarge{
+    border-radius:32px 
+}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{
+    padding:0 8px 
+}
+.w3-container,.w3-panel{
+    padding:0.01em 16px 
+}
+.w3-panel{
+    margin-top:16px;
+    margin-bottom:16px 
+}
+.w3-code,.w3-codespan{
+    font-family:Consolas,"courier new";
+    font-size:16px 
+}
+.w3-code{
+    width:auto;
+    background-color:#fff;
+    padding:8px 12px;
+    border-left:4px solid #4CAF50;
+    word-wrap:break-word 
+}
+.w3-codespan{
+    color:crimson;
+    background-color:#f1f1f1;
+    padding-left:4px;
+    padding-right:4px;
+    font-size:110% 
+}
+.w3-card,.w3-card-2{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) 
+}
+.w3-card-4,.w3-hover-shadow:hover{
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19) 
+}
+.w3-spin{
+    animation:w3-spin 2s infinite linear 
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #475841;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #E6E8E6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown Button */
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #E6E8E6;
+    padding: 14px 16px;
+    background-color: #475841;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  /* Dropdown button on hover & focus */
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #9FB8AD;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E6E8E6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #9FB8AD;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #E6E8E6;
+  }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */ 
+  .show {
+    display: block;
+  }

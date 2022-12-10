@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/wp.css">
+	<link rel="stylesheet" href="css/script.js">
+    <script src="https://kit.fontawesome.com/33862f77e0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <title>Thank You!</title>
+  </head>
+  <body>
+  <!-- Big Navbar -->
+	<nav class="nav w3-hide-small"> <img src="css/imgs/Ginger.JPG" id="img" alt="Navbar image">
+		<a href="#"> <i class="fa-solid fa-house fa-2x"></i>
+			<p> Home </p>
+		</a>
+		<a href="#about"> <i class="fa-solid fa-user fa-2x"></i>
+			<p> About </p>
+		</a>
+		<a href="#interests"> <i class="fa-solid fa-heart fa-2x"></i>
+			<p>Interests</p>
+		</a>
+		<a href="#papers"> <i class="fa-solid fa-file-lines fa-2x"></i>
+			<p> Papers </p>
+		</a>
+		<a href="#contact"> <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+			<p> Contact </p>
+		</a>
+  </nav>
+
+  	<!-- Break -->
+	<div class="div1 w3-hide-small">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+    <br>
+  </div>
+
+  <!-- Big Thank -->
+  <div class="div2 w3-hide-small w3-display-center">
+		<header class="header"> 
+      <br>
+			<h1 class="h1_header"> 
+        Thank you for you quesiton!
+      </h1>
+			<br>
+			<p class="p_header">
+        I'll get back to you as soon as I can.
+      </p>
+		</header>
+	</div>
+
+  	<!-- Break -->
+	<div class="div1 w3-hide-small">
+    <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+    <br>
+  </div>
+
+	<!-- Mini Navbar -->
+  <div class="navbar navmini w3-hide-large w3-hide-medium" style="margin: auto;">
+    <a href="#">Home</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()"><i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+		<a href="about.html">About</a>
+		<a href="interests.html">Interests</a>
+		<a href="papers.html">Papers</a>
+		<a href="contact.html">Contact</a>
+    </div>
+    </div> 
+  </div>
+  
+	<!-- Mini Break -->
+	<div class="div1mini w3-hide-large w3-hide-medium">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+    <br>
+		<br>
+		<br>
+		<br>
+    <br>
+  </div>
+
+  <!-- Mini Thank -->
+  <div class="div3mini w3-hide-large w3-hide-medium w3-display-center">
+		<header> 
+			<h1 class="header h2_headermini" style="margin-left: 0.2em;"> 
+        Thank you for you quesiton!
+      </h1>
+			<br>
+			<p class="pmini">
+        I'll get back to you as soon as I can.
+      </p>
+      <br>
+      <br>
+		</header>
+	</div>
+
+	<!-- Mini Break -->
+	<div class="div1mini w3-hide-large w3-hide-medium">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+    <br>
+		<br>
+		<br>
+		<br>
+    <br>
+		<br>
+		<br>
+  </div>
+
+  <script>
+	/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+		  var myDropdown = document.getElementById("myDropdown");
+			if (myDropdown.classList.contains('show')) {
+			  myDropdown.classList.remove('show');
+			}
+		  }
+		}
+	</script>
+  </body>
+</html>
